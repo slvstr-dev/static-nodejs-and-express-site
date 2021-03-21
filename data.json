@@ -8,8 +8,8 @@
             "live_link": "/projects/a-random-quote-generator",
             "github_link": "https://github.com/slvstr-dev/a-random-quote-generator",
             "image_urls": [
-                "/public/img/a-random-quote-generator-icon",
-                "/public/img/a-random-quote-generator-banner"
+                "/static/img/a-random-quote-generator-thumbnail.png",
+                "/static/img/a-random-quote-generator-banner.png"
             ]
         },
         {
@@ -20,8 +20,8 @@
             "live_link": "/projects/data-pagination-and-filtering",
             "github_link": "https://github.com/slvstr-dev/data-pagination-and-filtering",
             "image_urls": [
-                "/public/img/data-pagination-and-filtering-icon",
-                "/public/img/data-pagination-and-filtering-banner"
+                "/static/img/data-pagination-and-filtering-thumbnail.png",
+                "/static/img/data-pagination-and-filtering-banner.png"
             ]
         },
         {
@@ -32,8 +32,8 @@
             "live_link": "/projects/interactive-form",
             "github_link": "https://github.com/slvstr-dev/interactive-form",
             "image_urls": [
-                "/public/img/interactive-form-icon",
-                "/public/img/interactive-form-banner"
+                "/static/img/interactive-form-thumbnail.png",
+                "/static/img/interactive-form-banner.png"
             ]
         },
         {
@@ -44,8 +44,8 @@
             "live_link": "/projects/oop-game-show-app",
             "github_link": "https://github.com/slvstr-dev/oop-game-show-app",
             "image_urls": [
-                "/public/img/oop-game-show-app-icon",
-                "/public/img/oop-game-show-app-banner"
+                "/static/img/oop-game-show-app-thumbnail.png",
+                "/static/img/oop-game-show-app-banner.png"
             ]
         },
         {
@@ -56,8 +56,8 @@
             "live_link": "/projects/public-api-requests",
             "github_link": "https://github.com/slvstr-dev/public-api-requests",
             "image_urls": [
-                "/public/img/public-api-requests-icon",
-                "/public/img/public-api-requests-banner"
+                "/static/img/public-api-requests-thumbnail.png",
+                "/static/img/public-api-requests-banner.png"
             ]
         }
     ]
