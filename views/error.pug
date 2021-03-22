@@ -1,11 +1,13 @@
 extends layout.pug
 
 block content
-  article
+  article.error-content
     h1= status
-    p=  message
     
-  nav.nav
-    a(href="/")
-      span &larr;
-      |  Back
+    p=  message
+
+    a(href="mailto:hello@slvstr.dev") Contact us
+
+    br
+
+    a(href="/") &larr; Go back
