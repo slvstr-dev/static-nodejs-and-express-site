@@ -1,25 +1,45 @@
 const path = require("path");
 const express = require("express");
 const app = new express();
+const routes = require("./routes/index");
 const port = 3000;
-const data = require("./data.json");
 
-app.use("/static", express.static(path.join(__dirname, "public")));
-
+// Set view engine
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
-app.get("/", (req, res) => {
-    res.render("index", { projects: data.projects });
+// Set static assets directory
+app.use("/static", express.static(path.join(__dirname, "public")));
+
+// Route requests
+app.use("/", routes);
+
+// Handle page not found errors
+app.use((req, res) => {
+    const err = new Error();
+    err.status = 404;
+    err.message = "Seems like this page doesn't exist (anymore)...";
+
+    console.log(err);
+    res.status(404);
+    res.render("page-not-found", {
+        status: err.status,
+        message: err.message,
+    });
 });
 
-app.get("/about", (req, res) => {
-    res.render("about");
+// Handle remaining errors
+app.use((err, req, res, next) => {
+    console.log(err);
+    res.status(err.status || 500);
+    res.render("error", {
+        status: err.status || 500,
+        message:
+            "Something went wrong on our side. Please let us know or try again later!",
+    });
 });
 
-app.get("/project/:id", (req, res) => {
-    res.render("project", { project: data.projects[req.params.id] });
-});
-
+// Run server
 app.listen(port, () => {
     console.log(`App is listening at http://localhost:${port}.`);
 });
