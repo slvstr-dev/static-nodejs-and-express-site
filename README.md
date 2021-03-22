@@ -8,8 +8,6 @@ X
 
 ### Routes, Views & Error Handling
 
-X
-
 -   `/` Home
 -   `/about` About
 -   `/project/:id` Project
@@ -18,34 +16,32 @@ X
 
 ### Dependencies
 
-X
+`Express: ^4.17.1` `Pug: ^3.0.2` `serve-favicon:^2.5.0`
 
--   `Express: ^4.17.1`
--   `Pug: ^3.0.2`
--   `serve-favicon:^2.5.0`
+X
 
 ### DevDependencies
 
-X
+`nodemon: ^2.0.7`
 
--   `nodemon: ^2.0.7`
+X
 
 ### Customized Styling
 
-**Color**
+**Color**  
 X
 
-**Background color**
+**Background color**  
 X
 
-**Font**
+**Font**  
 X
 
-**Box shadow**
+**Box shadow**  
 X
 
-**Animations**
+**Animations**  
 X
 
-**Custom logo**
+**Custom logo**  
 X
