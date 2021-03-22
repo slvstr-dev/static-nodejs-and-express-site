@@ -22,7 +22,7 @@ app.use("/", routes);
 app.use((req, res) => {
     const err = new Error();
     err.status = 404;
-    err.message = "Seems like this page doesn't exist (anymore)...";
+    err.message = "Seems like this page is moved or doesn't exist (anymore)...";
 
     console.log(err);
     res.status(404);
