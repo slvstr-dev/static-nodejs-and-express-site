@@ -26,10 +26,7 @@ app.use((req, res) => {
 
     console.log(err);
     res.status(404);
-    res.render("page-not-found", {
-        status: err.status,
-        message: err.message,
-    });
+    res.render("page-not-found", { err });
 });
 
 // Handle remaining errors
