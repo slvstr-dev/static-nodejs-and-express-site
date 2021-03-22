@@ -5,7 +5,7 @@
             "project_name": "A Random Quote Generator",
             "description": "First project of the Team Treehouse Full Stack JavaScript Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/projects/a-random-quote-generator",
+            "live_link": "https://slvstr.dev/projects/a-random-quote-generator",
             "github_link": "https://github.com/slvstr-dev/a-random-quote-generator",
             "image_urls": [
                 "/static/img/a-random-quote-generator-thumbnail.png",
@@ -17,7 +17,7 @@
             "project_name": "Data Pagination And Filtering",
             "description": "Second project of the Team Treehouse Full Stack JavaScript Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/projects/data-pagination-and-filtering",
+            "live_link": "https://slvstr.dev/projects/data-pagination-and-filtering",
             "github_link": "https://github.com/slvstr-dev/data-pagination-and-filtering",
             "image_urls": [
                 "/static/img/data-pagination-and-filtering-thumbnail.png",
@@ -29,7 +29,7 @@
             "project_name": "Interactive Form",
             "description": "Third project of the Team Treehouse Full Stack JavaScript Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/projects/interactive-form",
+            "live_link": "https://slvstr.dev/projects/interactive-form",
             "github_link": "https://github.com/slvstr-dev/interactive-form",
             "image_urls": [
                 "/static/img/interactive-form-thumbnail.png",
@@ -41,7 +41,7 @@
             "project_name": "OOP Game Show App",
             "description": "Fourth project of the Team Treehouse Full Stack JavaScript Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
-            "live_link": "/projects/oop-game-show-app",
+            "live_link": "https://slvstr.dev/projects/oop-game-show-app",
             "github_link": "https://github.com/slvstr-dev/oop-game-show-app",
             "image_urls": [
                 "/static/img/oop-game-show-app-thumbnail.png",
@@ -53,7 +53,7 @@
             "project_name": "Public API Requests",
             "description": "Fifth project of the Team Treehouse Full Stack JavaScript Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript", "AJAX", "API"],
-            "live_link": "/projects/public-api-requests",
+            "live_link": "https://slvstr.dev/projects/public-api-requests",
             "github_link": "https://github.com/slvstr-dev/public-api-requests",
             "image_urls": [
                 "/static/img/public-api-requests-thumbnail.png",
